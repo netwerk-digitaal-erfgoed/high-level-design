@@ -1,7 +1,7 @@
 # Building blocks
 The distributed network of heritage information consists of building blocks. A building block, according to The Open Group Architecture Framework (TOGAF), is a package of functionality defined to meet business needs with published interfaces to access the functionality<sup>[1](#fn1)</sup>. There are eight building blocks, divided into three groups or layers: _back end building blocks_, _cross-domain building blocks_ and _front end building blocks_. The diagram underneath depicts the blocks:
 
-![Building blocks](assets/img/building-blocks.svg)
+<img src="assets/img/building-blocks.svg" />
 
 ## Contents
 - [Back end building blocks](#back-end-building-blocks)
