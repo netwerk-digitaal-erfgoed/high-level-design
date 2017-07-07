@@ -1,0 +1,32 @@
+# Design considerations
+The design of the distributed network of heritage information is guided by a number of design considerations. These considerations on the one hand are an elaboration of principles of the Digital Heritage Reference Architecture (DERA). These considerations on the other hand are new and could be a supplement to the DERA.
+
+## Contents
+- [Simplicity](#simplicity)
+- [Use terms from terminology sources](#use-terms-from-terminology-sources)
+- [Refer to information](#refer-to-information)
+- [Make information available at the source](#make-information-available-at-the-source)
+- [Be neutral about the nature of information](#be-neutral-about-the-nature-of-information)
+- [Use open standards for information integration](#use-open-standards-for-information-integration)
+- [Collect information selectively](#collect-information-selectively)
+
+## Simplicity
+Designing, developing and operating any system is complex. This also holds true for a new infrastructure of heritage information. The distributed network aims to be as simple as possible in order to minimize and control complexity. The distributed network aims to be lightweight, with minimal functionality ("just enough"). As [Edward de Bono](https://en.wikipedia.org/wiki/Edward_de_Bono) puts it: "_To get simplicity you have to want to get it. To want to get simplicity you have to put a high value on simplicity._"
+
+## Use terms from terminology sources
+The use of controlled terms for describing objects is not commonplace for cultural heritage institutions in the Netherlands. One institution uses terms from an authoritative terminology source, another institution uses its own, inborn terms and yet another institution doesn't use terms at all. This diversity severely hinders the findability of their information, especially outside of their institution. We want to improve this. The distributed network makes terms from established terminology sources easy accessible for use. This enables institutions to describe their objects adequately and enables service portals to find these objects easily and unambiguously.
+
+## Refer to information
+The current infrastructure of heritage information makes it hard to find information cross-domain. Most information resides in a particular domain, stored in domain-specific aggregators. Other information is available across domains, but mostly stored in thematic aggregators that hold specific subsets of information. We want to improve this. The distributed network makes information findable cross-domain by registering the locations where information can be found. Similarly to the index of a book, which uses pointers that refer to sections in the book, the distributed network uses pointers that refer to information. This makes a light infrastructure: it does not have to aggregate the information from all institutions in all domains to allow a service portal to find information cross-domain, it simply has to register the places where a portal needs to look.
+
+## Make information available at the source
+The current infrastructure of heritage information predominantly relies on aggregation. Information is copied from one system to another, producing duplicates or derivatives in various systems with various owners. This is inefficient and ineffective. We want to improve this. The distributed network makes information distributed available at the source: a cultural heritage institution or a terminology source provider. Information lives in this source; this is where information is maintained and where experts do their work. Service portals that want to use information from a source can get it by addressing the system of the source via standardized protocols for data exchange.
+
+## Be neutral about the nature of information
+The distributed network of heritage information is a new infrastructure for exchanging information. Yet the institutions that constitute the Digital Heritage Network vary greatly, ranging from archives to libraries and from museums to research institutes. This poses a challenge: how can an infrastructure support a broad range of organizations with different types of objects and different perspectives on data modeling? The distributed network wants to solve this by being neutral about the nature of information. The distributed network doesn't have an overarching data model or super ontology to which institutions must comply. Instead, the distributed network aims to be unopinionated, respecting both the depth and breadth that institutions apply in their information.
+
+## Use open standards for information integration
+The current infrastructure of heritage information consists of information silos. Information systems, such as collection management and terminology management systems, use different formats and protocols for exposing information. For example: one system implements open standards, the other proprietary standards and yet another homegrown solutions. These differences cause incompatibilities and make it difficult or impossible to integrate information from various sources — a serious impediment to cross-domain interoperability. We want to improve this. The distributed network fuels information integration by applying open standards. Open standards allow information to be shared and reused across system, organization and domain boundaries. The distributed network especially adheres to Linked Data principles and methods, for example by using [RDF](https://en.wikipedia.org/wiki/Resource_Description_Framework) for data interchange, [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) for data transport and [URIs](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier) for resource identification and retrieval.
+
+## Collect information selectively
+The current infrastructure of heritage information bears a heavy burden. Its aggregators hold an abundance of data and its service portals reharvest or query this data to help users find specific bits — needles in a haystack. We want to improve this. The distributed network enables portals to select and collect only the information they want — and if they want more, they can [follow their nose](http://patterns.dataincubator.org/book/follow-your-nose.html) and look for additional information. Contrary to the distributed network, which is largely unopinionated about information, a portal can be as opinionated as it wants to be in order to deliver a meaningful service to its users.
