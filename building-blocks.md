@@ -3,6 +3,8 @@ The distributed network of heritage information consists of building blocks. A b
 
 <img src="https://cdn.rawgit.com/netwerk-digitaal-erfgoed/high-level-design/master/assets/img/building-blocks.svg" />
 
+The blue blocks are back end building blocks. The green blocks are cross-domain building blocks. The red blocks are front end building blocks. Each block is described hereafter.
+
 ## Contents
 - [Back end building blocks](#back-end-building-blocks)
     - [Terminology management system](#terminology-management-system)
