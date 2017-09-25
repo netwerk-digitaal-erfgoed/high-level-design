@@ -56,7 +56,7 @@ The Registry assigns identifiers to the dataset profiles. These identifiers can 
 #### Register profiles of datasets of term descriptions
 The Registry maintains the profiles of datasets of term descriptions. A dataset contains the descriptions of terms from a terminology source, such as [Iconclass](http://www.iconclass.org/) or [WO2 Thesaurus](http://oorlogsbronnen.nl/wo2-thesaurus).
 
-The dataset may include alignments with other terms. For example: the terms in the Erfgoedthesaurus refer to their equivalents in DBpedia. A terminology source may also use a separate dataset and corresponding dataset profile for describing the alignments between terms (see function [Register profiles of datasets of alignments](#register-profiles-of-datasets-of-alignments)).
+The dataset may include alignments with other terms. For example: the terms in the Cultuurhistorische Thesaurus refer to their equivalents in DBpedia. A terminology source may also use a separate dataset and corresponding dataset profile for describing the alignments between terms (see function [Register profiles of datasets of alignments](#register-profiles-of-datasets-of-alignments)).
 
 A maintainer of a terminology source may register multiple versions of his dataset in the Registry. Each version corresponds to a dataset and has its own dataset profile. For example: if there are two officially supported versions of RKDartists&, dataset profile A describes version one and dataset profile B describes version two. Both profiles may refer to different locations where the term descriptions in the datasets can be found.
 
